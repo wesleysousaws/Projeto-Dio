@@ -5,6 +5,10 @@ let vitorias = 401
 let derrotas =  318
 let resultado = CalcularKda(vitorias, derrotas);
 
+function CalcularKda(vitorias, derrotas){
+    return vitorias - derrotas;
+}
+
 if (resultado < 10 ){
     console.log( "O Héroi tem saldo de " + resultado + " está no nível de Ferro ");
 }
@@ -33,6 +37,3 @@ else {
     console.log(" O Herói tem saldo de " + resultado + " está no nível de Imortal ")
 }
 
-function CalcularKda(vitorias, derrotas){
-    return vitorias - derrotas;
-}
