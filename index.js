@@ -1,8 +1,8 @@
 
 
 
-let vitorias = 101
-let derrotas = 0
+let vitorias = 401
+let derrotas =  410
 let resultado = CalcularKda(vitorias, derrotas);
 
 if (resultado < 10 ){
@@ -30,7 +30,7 @@ else if (resultado >= 91 && resultado <= 100){
 }
 
 else {
-    console.log(" O Herói tem saldo de " + resultado + " está no nível de Lendário ")
+    console.log(" O Herói tem saldo de " + resultado + " está no nível de Imortal ")
 }
 
 function CalcularKda(vitorias, derrotas){
