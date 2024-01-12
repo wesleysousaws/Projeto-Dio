@@ -2,7 +2,7 @@
 
 
 let vitorias = 401
-let derrotas =  410
+let derrotas =  318
 let resultado = CalcularKda(vitorias, derrotas);
 
 if (resultado < 10 ){
@@ -18,10 +18,10 @@ else if (resultado >= 21 && resultado <= 50 ){
 }
 
 else if (resultado >= 51 && resultado <= 80 ){
-    console.log(" O Herói tem saldo de" + resultado + " está no nível de Ouro ")
+    console.log(" O Herói tem saldo de " + resultado + " está no nível de Ouro ")
 }
 
-else if (resultado >= 81 && resultado <=90 ){
+else if (resultado >= 81 && resultado <= 90 ){
     console.log(" O Herói tem saldo de " + resultado + " está no nível de Diamante ")
 }
 
